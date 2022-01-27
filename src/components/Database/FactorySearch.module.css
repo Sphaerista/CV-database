@@ -1,0 +1,96 @@
+.totalAmount {
+  margin-top: 0.5rem;
+}
+.options {
+  margin-top: 0.5rem;
+}
+
+/* countryListHandler */
+
+.countryListHandler {
+  display: flex;
+  max-width: 480px;
+  justify-content: flex-end;
+}
+.countryListHandler select {
+  margin-right: 5px;
+  padding: 0.2rem;
+  border: 1px solid rgb(219, 231, 255);
+  box-shadow: 0px 0px 2px rgb(126, 168, 252);
+  outline: rgb(219, 231, 255);
+}
+
+.countryListHandler select:hover {
+  cursor: pointer;
+}
+
+/* END-countryListHandler */
+
+/* sortbox */
+
+.spare {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.sortbox {
+  margin-top: 0.5rem;
+  display: inline-flex;
+  border: 1px solid rgb(126, 168, 252, 0.4);
+  box-shadow: 0px 0px 2px rgb(126, 168, 252);
+  /* padding: 5px 5px; */
+}
+
+.sortbox:last-child label:nth-of-type(1) {
+  flex: 0.87;
+}
+.sortbox:last-child label:nth-of-type(2) {
+  flex: 1;
+}
+
+.sortbox input {
+  display: none;
+}
+
+.sortbox label {
+  padding: 5px 10px;
+  transition: 0.2s;
+}
+
+.sortbox label:nth-of-type(1) {
+  border-right: 1px solid rgb(126, 168, 252, 0.2);
+}
+
+.sortbox label:hover {
+  background-color: rgba(180, 178, 178, 0.3);
+  cursor: pointer;
+}
+
+.sortbox input:checked + .form-control {
+  background-color: rgb(219, 231, 255);
+}
+
+/* END-sortbox */
+/* searchInput */
+.searchInput {
+  margin-top: 0.5rem;
+}
+.searchInput input {
+  width: 219px;
+  padding: 0.5rem;
+  border: 1px solid rgb(219, 231, 255);
+  box-shadow: 0px 0px 2px rgb(126, 168, 252);
+  outline: rgb(219, 231, 255);
+}
+.searchInput input:disabled {
+  border: 1px solid rgba(180, 178, 178, 0.3);
+  box-shadow: 0px 0px 2px rgba(180, 178, 178, 0.6);
+  outline: rgb(219, 231, 255);
+}
+/* End-searchInput */
+
+.factory-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

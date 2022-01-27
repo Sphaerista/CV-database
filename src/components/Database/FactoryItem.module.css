@@ -1,0 +1,36 @@
+.factory-name {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.factory-location {
+  margin: 0.3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+.factory-country {
+  text-align: end;
+}
+
+.view-factory-btn {
+  margin: 0.2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.view-factory-btn button {
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(247, 78, 177, 0.5);
+  background-color: rgb(218, 67, 155);
+  color: aliceblue;
+}
+
+.view-factory-btn button:hover {
+  background-color: rgb(247, 78, 177, 0.3);
+  color: black;
+}

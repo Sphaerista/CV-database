@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Lato", sans-serif;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-y: scroll;
+  /* background-color: #3f3f3f; */
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focused {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.outside {
+  margin-top: 2rem;
+}
+
+.forCheckbox {
+  margin-left: 4rem;
+}
+
+/* for forms */
+
+.forForm select {
+  margin-right: 5px;
+  padding: 0.2rem;
+  border: 1px solid rgb(219, 231, 255);
+  box-shadow: 0px 0px 2px rgb(126, 168, 252);
+  outline: rgb(219, 231, 255);
+}
+
+.forForm select:hover {
+  cursor: pointer;
+}
+
+.forForm button {
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 190, 250);
+  background-color: rgb(219, 231, 255);
+  font-weight: bold;
+}
+.forForm button:disabled {
+  cursor: default;
+  background-color: rgb(231, 232, 235);
+  border: 1px solid rgb(231, 232, 235);
+}
+.forForm button:disabled:hover {
+  background-color: rgb(231, 232, 235);
+  color: rgba(16, 16, 16, 0.3);
+}
+
+.forForm button:hover {
+  background-color: rgb(247, 78, 177);
+  border: 1px solid rgb(219, 231, 255);
+  color: white;
+}
+.forForm button:active {
+  background-color: rgb(160, 190, 250);
+  border: 1px solid rgb(247, 78, 177);
+  color: white;
+}
+
+/* END-for forms */
+
+/* for lists */
+.listItem {
+  border: 1px solid rgb(219, 231, 255);
+  box-shadow: 0px 0px 2px rgb(126, 168, 252);
+  background-color: rgb(219, 231, 255, 0.5);
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 300px;
+  transition: 0.2s;
+}
+.listItem:hover {
+  background-color: rgb(219, 231, 255);
+  box-shadow: 0px 0px 10px rgb(126, 168, 252);
+}
+
+/* END-for lists */
+
+/*/ add-button/ */
+
+.add-to-favs-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-to-favs-btn button {
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  background-color: rgb(252, 206, 0);
+  box-shadow: 0px 0px 2px rgb(218, 67, 155);
+}
+
+.add-to-favs-btn button:hover {
+  background-color: rgb(233, 190, 0);
+  box-shadow: 0px 0px 5px rgb(218, 67, 155);
+}
+
+.add-to-favs-pending {
+  padding: 2.5px;
+  color: rgb(218, 67, 155);
+  text-align: end;
+}
+.add-to-favs-added {
+  padding: 2.5px;
+  color: rgb(189, 177, 18);
+}
+/*/ END-add-button/ */
+
+/*/ home/ */
+.home-logged {
+  margin: 4rem 5rem;
+}
+.home-logged div {
+  margin-bottom: 20px;
+}
+.home-logged div span a {
+  color: rgb(218, 67, 155);
+  font-weight: bold;
+}
+/*/ END-home/ */
+
+/* for home */
+
+.description {
+  margin: 3rem;
+}
+.description h4 {
+  text-align: left;
+}
+
+.description li + li {
+  margin-top: 10px;
+}
+/* END-for home */

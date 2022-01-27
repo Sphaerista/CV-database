@@ -1,0 +1,27 @@
+.factoryInfo {
+  margin: 1rem 1.5rem;
+}
+.factoryInfo div {
+  margin: 15px 0px;
+  font-weight: bold;
+}
+
+.removeButton {
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border: none;
+  background-color: rgb(218, 67, 67, 0.5);
+  color: aliceblue;
+}
+
+.removeButton:hover {
+  /* border: 2px solid rgba(245, 245, 245, 0.5); */
+  background-color: rgb(218, 67, 67);
+  box-shadow: 0px 0px 8px rgb(126, 168, 252);
+}
+
+.removeButton:active {
+  background-color: rgb(126, 168, 252);
+  box-shadow: 0px 0px 8px rgb(218, 67, 67);
+}

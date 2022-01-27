@@ -1,0 +1,40 @@
+.factoryInfo {
+  margin: 10px 0px 10px 10px;
+  padding: 0px 0px 10px;
+  border-top: 1px solid rgb(218, 67, 155, 0.2);
+  border-bottom: 1px solid rgb(218, 67, 155, 0.2);
+}
+.factoryInfo div {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.close-factory-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.close-factory-btn button {
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(241, 79, 79, 0.5);
+  background-color: rgb(241, 79, 79);
+  color: aliceblue;
+}
+
+.close-factory-btn button:hover {
+  background-color: rgb(241, 79, 79, 0.3);
+  color: black;
+}
+.close-factory-btn button:active {
+  background-color: rgb(241, 79, 79);
+  color: aliceblue;
+}
+
+.alreadyAdded {
+  font-weight: bold;
+  color: rgb(241, 79, 79);
+  padding: 2.8px 0;
+}

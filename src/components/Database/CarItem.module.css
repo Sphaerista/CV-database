@@ -1,0 +1,11 @@
+.car-model {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.car-info {
+  margin: 0.3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+}

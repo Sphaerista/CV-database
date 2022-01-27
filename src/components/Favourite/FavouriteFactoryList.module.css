@@ -1,0 +1,10 @@
+.list {
+  margin: 2rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list > div {
+  margin: 1.5rem;
+}
