@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+/* eslint-disable */
+import React, { useState, useEffect, useContext } from "react";
 import Modal from "../Modal/Modal";
 import styles from "./ViewFactory.module.css";
 import useHttp from "./../../hooks/use-http";
 import { addToFavs, getDataInFavs } from "../../lib/api";
-import { useContext } from "react/cjs/react.development";
 import AuthContext from "../../hooks/auth-context";
 
 const ViewFactory = (props) => {

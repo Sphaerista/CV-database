@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
-
+/* eslint-disable */
+import React, { useEffect, useState, useContext } from "react";
 import styles from "./Favourite.module.css";
 import { getDataInFavs } from "../lib/api";
 import useHttp from "./../hooks/use-http";
 import FavouriteFactoryList from "../components/Favourite/FavouriteFactoryList";
 import Checkbox from "../components/UI/Checkbox";
 import FavouriteCarList from "../components/Favourite/FavouriteCarList";
-import { useContext } from "react/cjs/react.development";
 import AuthContext from "../hooks/auth-context";
 
 const Favourite = () => {

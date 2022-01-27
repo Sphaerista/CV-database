@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 
 import styles from "./CarItem.module.css";
 import useHttp from "./../../hooks/use-http";
 import { addToFavs } from "../../lib/api";
-import { useContext } from "react/cjs/react.development";
 import AuthContext from "../../hooks/auth-context";
 
 const CarItem = (props) => {

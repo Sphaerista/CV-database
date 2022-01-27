@@ -1,7 +1,6 @@
-import React from "react";
+/* eslint-disable */
+import React, { useState, useEffect } from "react";
 import styles from "./CarSearch.module.css";
-
-import { useState, useEffect } from "react/cjs/react.development";
 import useHttp from "./../../hooks/use-http";
 import { fetchCarForDatabase, fetchCarListId } from "../../lib/api";
 import CarItem from "./CarItem";
